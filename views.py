@@ -9,4 +9,5 @@ def index(request):
 
 def login(request):
     """重定向到index页面"""
+    print("收到")
     return redirect("/index")
